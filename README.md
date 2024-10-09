@@ -20,5 +20,16 @@ This project is a Spring Boot application with MySQL 8 as the database. It demon
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-repo/springboot-mysql-relationships.git
+https://github.com/Prathamesh-Jagtap/SpringBootJPA-Relationships.git
 cd springboot-mysql-relationships
+```
+
+# Create a MySQL database for the project:
+- CREATE DATABASE myapp;
+
+# Build and Run the Application
+```bash
+mvn clean install
+mvn spring-boot:run
+```
+# Test API Endpoints
